@@ -7,7 +7,7 @@
 Wine.destroy_all
 
 Wine.create([
-  {name: '//Cabernet Sauvignon',
+  {name: 'Cabernet Sauvignon',
   producer: 'Domaines Baron de Rothschild',
   ingredient:'Cabernet Sauvignon Grape',
   wine_type: 'Red wine',
