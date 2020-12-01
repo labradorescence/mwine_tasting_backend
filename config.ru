@@ -2,4 +2,8 @@
 
 require_relative 'config/environment'
 
+<<<<<<< HEAD
 run Rails.application
+=======
+run Rails.application
+>>>>>>> 05f7c1f... review

@@ -10,37 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_29_172504) do
+ActiveRecord::Schema.define(version: 2020_07_28_020658) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "reviews", force: :cascade do |t|
-    t.integer "wine_id"
+    t.string "name"
+    t.string "region"
+    t.string "price"
     t.string "date"
     t.string "occasion"
     t.string "aroma"
     t.string "color"
     t.string "acidity_level"
     t.string "taste"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "wines", force: :cascade do |t|
-    t.string "name"
-    t.string "producer"
-    t.string "ingredient"
-    t.string "wine_type"
-    t.string "region"
-    t.string "country"
-    t.float "price"
-    t.integer "rating"
     t.string "note"
+    t.integer "rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "image"
-    t.string "video"
   end
 
 end
