@@ -2,7 +2,7 @@
 M Wine Tasting is a wine journal web application where user can see, swirl, sniff, sip and savor a glass of wine and write about the sublime wine tasting experience.
 
 # Getting Started
-1. clone the [BACKEND REPO](https://github.com/labradorescence/mwine_tasting_backend)
+1. clone the [FRONTEND REPO](https://github.com/labradorescence/mwine_tasting_backend)
 2. Run the rail server `rails s -p 3001`
 3. Clone this repository and cd into the directory
 4. Install all dependencies `$ npm install`
@@ -41,3 +41,14 @@ M Wine Tasting is a wine journal web application where user can see, swirl, snif
 * Semantc UI
 * Wheelnav
 
+# Steps for migrating/seeding
+* rake db:migrate
+* rake db:seed 
+
+# steps for heroku
+* heroku create mwine 
+* git add .
+* git commit 
+* git push heroku main
+* heroku run rake db:migrate
+* heroku run rake db:seed
