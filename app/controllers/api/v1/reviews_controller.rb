@@ -46,11 +46,7 @@ class Api::V1::ReviewsController < ApplicationController
     private
 
     def check_params
-<<<<<<< HEAD
-        params.permit(:date, :occasion, :aroma, :color, :acidity_level, :taste, :wine_id)
-=======
         params.permit(:name, :region, :price, :date, :occasion, :aroma, :color, :acidity_level, :taste, :rating, :note)
->>>>>>> 05f7c1f... review
             # The check_params method is permitting the keys ':name, :producer, :ingredient, :type, :region, :country, :price, :rating,  and  :note' whenever a PATCH request is made.
     end
 end
