@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
 # M Wine Tasting
 M Wine Tasting is a wine journal web application where user can see, swirl, sniff, sip and savor a glass of wine and write about the sublime wine tasting experience.
 
@@ -66,4 +40,4 @@ M Wine Tasting is a wine journal web application where user can see, swirl, snif
 * [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers)
 * Semantc UI
 * Wheelnav
->>>>>>> 05f7c1f... review
+
