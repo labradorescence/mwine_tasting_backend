@@ -52,3 +52,5 @@ M Wine Tasting is a wine journal web application where user can see, swirl, snif
 * git push heroku main
 * heroku run rake db:migrate
 * heroku run rake db:seed
+* heroku run console
+* to delete one object User.find(15).destroy/ User.find(15).destroy/ User.where(age: 20).destroy_all
